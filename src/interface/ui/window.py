@@ -142,8 +142,8 @@ class Ui_MainWindow(object):
         self.label_amount.setText(QCoreApplication.translate("MainWindow", u"Amount:", None))
         self.label_amount_output.setText(QCoreApplication.translate("MainWindow", u"0", None))
         self.label_size.setText(QCoreApplication.translate("MainWindow", u"Size:", None))
-        self.label_size_output.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.label_size_output.setText(QCoreApplication.translate("MainWindow", u"0 B", None))
         self.label_duration.setText(QCoreApplication.translate("MainWindow", u"Duration:", None))
-        self.label_duration_output.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.label_duration_output.setText(QCoreApplication.translate("MainWindow", u"0:00:00", None))
     # retranslateUi
 
